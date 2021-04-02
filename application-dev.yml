@@ -4,7 +4,7 @@ server:
 
 spring:
   application:
-    name: cloud-payment-service
+    name: cloud-payment-service-dev
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
@@ -28,5 +28,7 @@ eureka:
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.atguigu.springcloud.entities
+  
+ # dev configuration
 
 
