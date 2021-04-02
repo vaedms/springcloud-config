@@ -1,1 +1,2 @@
-# dev configuration
+server:
+  port: 1001
