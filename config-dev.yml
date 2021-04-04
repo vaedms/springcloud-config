@@ -2,7 +2,7 @@ server:
   port: 5555
 spring:
   application:
-    name: config-client-dev-v01
+    name: config-client-dev-v02
   cloud:
     config:
       label: master
