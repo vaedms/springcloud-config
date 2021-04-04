@@ -1,5 +1,5 @@
 server:
-  port: 5555
+  port: 3355
 spring:
   application:
     name: config-client-dev-v02
