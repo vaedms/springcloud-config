@@ -4,3 +4,6 @@ spring:
 
 config:
   info: config-myconfig-dev
+
+server:
+  port: 5555
