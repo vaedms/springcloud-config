@@ -1,3 +1,6 @@
 spring:
   application:
     name: config-discovery-dev
+
+config:
+  info: config-myconfig-dev

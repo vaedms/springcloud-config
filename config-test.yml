@@ -1,3 +1,7 @@
 spring:
   application:
     name: config-discovery-test
+
+
+config:
+  info: config-myconfig-test
