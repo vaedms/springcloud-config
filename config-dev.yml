@@ -1,9 +1,15 @@
-spring:
-  application:
-    name: config-discovery-dev
-
-config:
-  info: config-myconfig-dev
-
 server:
   port: 5555
+spring:
+  application:
+    name: config-client-dev
+  cloud:
+    config:
+      label: master
+      name: config
+      profile: dev
+      uri: http://config-3344.com:3344
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
